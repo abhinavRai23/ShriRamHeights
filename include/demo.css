@@ -1,0 +1,45 @@
+/*------------------------------------*\
+-------- Page Styles: Accordion
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+-------- DEMO Code: accordion
+\*------------------------------------*/
+/*----- Accordion -----*/
+.accordion, .accordion * {
+	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	box-sizing:border-box;
+}
+
+.accordion {
+	overflow:hidden;
+	background:#FFF;
+}
+
+/*----- Section Titles -----*/
+.accordion-section-title {
+	background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #1a1a1a;
+    color: #000;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 15px;
+    transition: all 0.15s linear 0s;
+    width: 100%;
+}
+
+.accordion-section-title i :hover {
+	text-decoration: none;
+}
+
+.accordion-section:last-child .accordion-section-title {
+	border-bottom:none;
+}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+	padding:15px;
+	display:none;
+}
